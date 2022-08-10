@@ -1,0 +1,22 @@
+{
+  "name": "webpack-sass",
+  "version": "1.0.0",
+  "description": "Walkthrough and template for setting up Sass with Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michihodges/webpack-sass.git"
+  },
+  "author": "michihodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michihodges/webpack-sass/issues"
+  },
+  "homepage": "https://github.com/michihodges/webpack-sass#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
