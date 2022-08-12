@@ -7,12 +7,12 @@ const mockAPIResponse = require('./mockAPI.js')
 const app = express()
 
 // Initialize the main project folder
-app.use(express.static('src/client'))
+app.use(express.static('dist'))
 console.log(__dirname)
 
 // GET Route index.html
 app.get('/', function (req, res) {
-    res.sendFile('/client/views/index.html', { root: __dirname + '/..' })
+    res.sendFile('dist/index.html')
 })
 
 // Setup server
