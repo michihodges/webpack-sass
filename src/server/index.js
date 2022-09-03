@@ -12,7 +12,7 @@ console.log(__dirname)
 
 // GET Route index.html
 app.get('/', function (req, res) {
-    res.sendFile('dist/index.html')
+    res.sendFile('dist/html')
 })
 
 // Setup server
