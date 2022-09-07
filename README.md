@@ -1,2 +1,2 @@
 # Webpack Sass
-Walkthrough and template for setting up Sass with Webpack.
+A template for setting up Sass with Webpack.
