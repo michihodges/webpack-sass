@@ -1,7 +1,7 @@
 {
   "name": "webpack-sass",
   "version": "1.0.0",
-  "description": "Walkthrough and template for setting up Sass with Webpack.",
+  "description": "A walkthrough for setting up Sass with Webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
