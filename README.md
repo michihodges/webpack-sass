@@ -20,3 +20,5 @@ A walkthrough for setting up Sass with Webpack.
 ## Webpack and Sass
 
 ## Conclusion
+
+### [Back to Top](#webpack-sass)
