@@ -2,12 +2,12 @@
 A walkthrough for setting up Sass with Webpack.
 
 ## Table of Contents
-[Introduction](#Introduction)
-[Nesting](#nesting)
-[Variables](#variables)
-[Ampersand](#ampersand)
-[Webpack and Sass](#webpack-and-sass)
-[Conclusion](#conclusion)
+1. [Introduction](#Introduction)
+2. [Nesting](#nesting)
+3. [Variables](#variables)
+4. [Ampersand](#ampersand)
+5. [Webpack and Sass](#webpack-and-sass)
+6. [Conclusion](#conclusion)
 
 ## Introduction
 
