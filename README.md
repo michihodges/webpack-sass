@@ -50,6 +50,23 @@ nav a {
 With vanilla CSS, every element inside of the `nav` element needs to refernce `nav` before referencing the intended elements `ul`, `li`, or `a` that requires styling. With Sass, everything can be neatly nested inside each other, saving a developer time and adding more clarity.
 
 ## Variables
+Another feature is the use of variables. Although they are also available in vanilla CSS, using variables when theming makes far more flexible and understandable styles. For instance, if the `primary-color` variable needs changing below, only the variable requires changing instead of each and every style:
+```css
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+```
+The transpiled CSS in the browser would look like this:
+```css
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+```
 
 ## Ampersand
 
