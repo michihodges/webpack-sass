@@ -69,7 +69,7 @@ body {
 ```
 
 ## Ampersand
-The ampersand is a simple yet effective feature that allows selector chaining inside of nested Sass syntax. 
+The ampersand is a simple yet effective feature that allows styling to more than one seletor selector on the same element. 
 
 ## Webpack and Sass
 
