@@ -81,7 +81,7 @@ button.cta {
   }
 
   &:visited {
-    background: fuschia;
+    background: fuchsia;
   }
 }
 ```
