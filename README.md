@@ -69,7 +69,22 @@ body {
 ```
 
 ## Ampersand
-The ampersand is a simple yet effective feature that allows styling to more than one seletor selector on the same element. 
+The ampersand is a simple yet effective feature that allows styling to more than one seletor selector on the same element. At first this may seem somewhat underwhelming, but when used with pseudo elements, such as, `:hover`, `:visited` or animations, they can all be conveniently nested and the ampersand saves writing repetitive code: Below is an example of how the ampersand is implemented with Sass:
+```scss
+button.cta {
+  border-radius: 3px;
+  background: teal;
+  color: white;
+
+  &:hover {
+    background: aqua;
+  }
+
+  &:visited {
+    background: fuschia;
+  }
+}
+```
 
 ## Webpack and Sass
 
