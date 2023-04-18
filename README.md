@@ -85,6 +85,22 @@ button.cta {
   }
 }
 ```
+Vanilla CSS would look like this:
+```css
+button.cta {
+  border-radius: 3px;
+  background: teal;
+  color: white;
+}
+
+button.cta:hover {
+  background: aqua;
+}
+
+button.cta:visited {
+  background: fuchsia;
+}
+```
 
 ## Webpack and Sass
 
