@@ -104,7 +104,7 @@ button.cta:visited {
 
 ## Webpack and Sass
 ### Inroduction
-Webpack is relevant to Sass, because browsers do not run Sass and do not understand what to do with these files. Browsers know what CSS is though, therefore, Webpack is required to transpile and convert Sass into vanilla CSS. To achieve this, various loaders are required and must be installed. These loaders will then then be chained in the `webpack.dev.js` file. Chaining is another Webpack feature that allows multiple loaders to run one after another, like an assembly line, to run through the process of preparing and converting things into the required format.
+Webpack is relevant to Sass, because browsers do not run Sass and do not understand what to do with these files. Browsers know what CSS is though, therefore, Webpack is required to transpile and convert Sass into vanilla CSS. To achieve this, various loaders are required and must be installed. These loaders will then then be chained in the `webpack.dev.js` file. Chaining is another Webpack feature that allows multiple loaders to run one after another, like an assembly line, to run through the process of preparing and converting things into the required format. 
 
 ### Installation
 Install Sass loaders in the Command Line:
