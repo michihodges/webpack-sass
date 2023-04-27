@@ -104,12 +104,12 @@ button.cta:visited {
 
 ## Webpack and Sass
 ### Inroduction
-Without Webpack, Sass would not work, because the browser does not understand Sass and only understands vanilla CSS. For Sass to work with Webpack, loaders and other packages are required to be installed. These loaders and other packages transpile (convert) Sass SCSS files into plain CSS files. More than one loader is needed and are chained in order to get the intended file format. Chaining is a useful concept that allows Webpack to practically build an assembly line that works through a loader stack chronologically until the necessary result is achieved. In this case, Sass is converted into CSS and then evidently styled.
+Without Webpack, Sass would not work, because the browser does not understand Sass and only understands vanilla CSS. For Sass to work with Webpack, loaders and other packages are required to be installed. These loaders and other packages transpile (convert) Sass SCSS files into plain CSS files. More than one loader is needed and are chained in order to get the intended file format. Chaining is a useful concept that allows Webpack to practically build an assembly line that works through a loader stack chronologically until the necessary result is achieved. In this case, Sass is converted into CSS and then styled.
 
 ### Installation
-Install the following loaders and other relevant packages in the Command Line:
+Install the following dependecies in the Command Line:
 ```
-
+npm i --legacy-peer-deps dotenv@8.2.0 jest-fetch-mock@3.0.3
 ```
 
 ### Configuration
