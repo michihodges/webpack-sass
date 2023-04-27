@@ -111,6 +111,10 @@ Install the following dependecies in the Command Line:
 ```
 npm i --legacy-peer-deps dotenv@8.2.0 jest-fetch-mock@3.0.3
 ```
+Install the following devDependecies in the Command Line:
+```
+npm i -D --legacy-peer-deps css-loader@5.2.1 jest@26.6.3 mini-css-extract-plugin@1.4.1 node-fetch@2.6.1 node-sass@5.0.0 optimize-css-assets-webpack-plugin@5.0.4 sass@1.32.8 sass-loader@10.1.1 style-loader@2.0.0 terser-webpack-plugin@5.1.1 workbox-webpack-plugin@6.1.5
+```
 
 ### Configuration
 
