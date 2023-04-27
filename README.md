@@ -126,6 +126,10 @@ Add the following to webpack.dev.js rules:
 ```
 
 ### Test
+Run development mode in the Command Line:
+```
+npm run build-dev
+```
 
 ## Conclusion
 
