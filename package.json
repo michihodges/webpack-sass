@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "description": "A walkthrough for setting up Sass with Webpack.",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michihodges/webpack-sass.git"
+  },
+  "author": "michihodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michihodges/webpack-sass/issues"
+  },
+  "homepage": "https://github.com/michihodges/webpack-sass#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -31,21 +47,5 @@
     "terser-webpack-plugin": "^5.1.1",
     "webpack-dev-server": "^3.11.2",
     "workbox-webpack-plugin": "^6.1.5"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server/index.js",
-    "build-prod": "webpack --config webpack.prod.js",
-    "build-dev": "webpack-dev-server --config webpack.dev.js --open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michihodges/webpack-sass.git"
-  },
-  "author": "michihodges",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/michihodges/webpack-sass/issues"
-  },
-  "homepage": "https://github.com/michihodges/webpack-sass#readme"
+  }
 }
