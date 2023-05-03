@@ -125,7 +125,7 @@ npm i -D --legacy-peer-deps style-loader@2.0.0
 npm i -D --legacy-peer-deps terser-webpack-plugin@5.1.1
 npm i -D --legacy-peer-deps workbox-webpack-plugin@6.1.5
 ```
-Force install node-sass@5.0.0 in the devDependencies:
+Force install node-sass@5.0.0 in the devDependencies in the Command Line:
 ```
 npm i -D --legacy-peer-deps --force node-sass@5.0.0
 ```
