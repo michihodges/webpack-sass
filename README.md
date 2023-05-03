@@ -118,13 +118,16 @@ npm i -D --legacy-peer-deps css-loader@5.2.1
 npm i -D --legacy-peer-deps jest@26.6.3
 npm i -D --legacy-peer-deps mini-css-extract-plugin@1.4.1
 npm i -D --legacy-peer-deps node-fetch@2.6.1
-npm i -D --legacy-peer-deps node-sass@5.0.0
 npm i -D --legacy-peer-deps optimize-css-assets-webpack-plugin@5.0.4
 npm i -D --legacy-peer-deps sass@1.32.8
 npm i -D --legacy-peer-deps sass-loader@10.1.1
 npm i -D --legacy-peer-deps style-loader@2.0.0
 npm i -D --legacy-peer-deps terser-webpack-plugin@5.1.1
 npm i -D --legacy-peer-deps workbox-webpack-plugin@6.1.5
+```
+Force install node-sass@5.0.0 in the devDependencies:
+```
+npm i -D --legacy-peer-deps --force node-sass@5.0.0
 ```
 
 ### Configuration
