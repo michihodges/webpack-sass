@@ -131,12 +131,22 @@ npm i -D --legacy-peer-deps --force node-sass@5.0.0
 ```
 
 ### Configuration
-Add the following to webpack.dev.js rules:
+#### webpack.dev.js
+Add the following to the rules object:
 ```js
 {
         test: /\.scss$/,
         use: [ 'style-loader', 'css-loader', 'sass-loader' ]
 }
+```
+#### src/client/index.js
+Import scss files:
+```
+import './styles/resets.scss'
+import './styles/base.scss'
+import './styles/footer.scss'
+import './styles/form.scss'
+import './styles/header.scss'
 ```
 
 ### Test
