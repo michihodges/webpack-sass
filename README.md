@@ -155,6 +155,6 @@ Run development mode in the Command Line:
 npm run build-dev
 ```
 
-## Conclusion
+## Review
 
 ### [Back to Top](#webpack-sass)
