@@ -7,10 +7,11 @@ A walkthrough for setting up Sass with Webpack.
 3. [Variables](#variables)
 4. [Ampersand](#ampersand)
 5. [Webpack and Sass](#webpack-and-sass)
-6. [Conclusion](#conclusion)
+6. [Implementation](#implementation)
+7. [Review](#review)
 
 ## Introduction
-Sass is a CSS extension language, meaning, it has extra syntax that makes writing code easier and is more efficient. There are many reasons for using Sass, this repository will cover a handful of key features that include, nesting, variables, the ampersand and the implementation of Sass with Webpack.
+Sass is a CSS extension language, meaning, it has extra syntax that makes writing code easier and is more efficient. There are many reasons for using Sass. This repository will cover a handful of key features that include, nesting, variables, the ampersand and the implementation of Sass with Webpack.
 
 ## Nesting
 HTML elements are nested and by nature so is CSS. When CSS is implemented properly with HTML, styles should not be added at the top of the file, but rather the elements can themselves be styled or classes and ids can be added within the element tags and styled. However, this is not reflected in CSS syntax when coding and styling within the CSS stylesheet. Below is an example of how nesting works with Sass:
@@ -154,6 +155,9 @@ Run development mode in the Command Line:
 ```
 npm run build-dev
 ```
+The result should be an unstyled webpage with the alert message `I exist!`. Once `OK` is clicked there should be a basic styled layout confirming that the Sass configuration with Webpack is working.
+
+## Implementation
 
 ## Review
 
