@@ -158,6 +158,105 @@ npm run build-dev
 The result should be an unstyled webpage with the alert message `I exist!`. Once `OK` is clicked there should be a basic styled layout confirming that the Sass configuration with Webpack is working.
 
 ## Implementation
+The files in the `src/client/styles` folder are already `.scss` files. Technically, due to Sass being CSS, CSS code is valid Sass code and no further adjustments are *required*. Nonetheless, since Sass is set up, it would be an opportune moment to refactor and optimize the styles. Below is the code for all the styling files, where plain CSS has been replaced with Sass and a short explanation of what has been changed in line with what has been touched upon above:
+
+### base.scss
+CSS:
+```css
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+```
+Sass:
+```scss
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+        flex: 2;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+}
+```
+`main` is now nested inside `body` and `section` inside `main`.
+
+### footer.scss
+This is an empty file and nothing has been changed in this file. Nonetheless, it is important to note that it must be an SCSS file in order for Webpack to transpile it into plain CSS, build and distribute.
+
+### form.scss
+CSS:
+```css
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+```
+Sass:
+```scss
+$form-border: 1px solid #545454;
+
+form {
+    border: $form-border;
+    border-radius: 3px;
+    padding: 40px;
+
+    input {
+        padding: 5px 20px;
+        width: 100%;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+}
+```
+The `border` property value inside the `form` rule has been delegated to the `$form-border` variable and `input` is now nested inside of `form`.
+
+### header.scss
+CSS:
+```css
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+```
+Sass:
+```scss
+$header-padding: 10px 40px;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: $header-padding;
+}
+```
+The `padding` property value inside the `header` rule has been delegated to the `$header-padding` variable.
+
+### resets.scss
 
 ## Review
 
