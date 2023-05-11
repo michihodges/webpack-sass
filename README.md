@@ -354,15 +354,15 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 
   ol, ul {
 	  list-style: none;
   }
 
   blockquote, q {
-	  quotes: none;
-
+    quotes: none;
+    
     &:before, &:after {
       content: '';
       content: none;
