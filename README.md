@@ -187,11 +187,11 @@ body {
 
     main {
         flex: 2;
-    }
 
-    section {
-        max-width: 800px;
-        margin: 50px auto;
+        section {
+          max-width: 800px;
+          margin: 50px auto;
+      }
     }
 }
 ```
