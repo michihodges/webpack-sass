@@ -130,6 +130,7 @@ Force install node-sass@5.0.0 in the devDependencies in the Command Line:
 ```
 npm i -D --legacy-peer-deps --force node-sass@5.0.0
 ```
+Note that everything installed so far is so that node-sass works. Let that sink in for a second. EVERYTHING that has been meticulously installed with `--legacy-peer-deps` and the `@version` has been installed for an old version of node-sass to work.
 
 ### Configuration
 #### webpack.dev.js
