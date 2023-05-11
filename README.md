@@ -357,7 +357,7 @@ body {
   line-height: 1;
 
   ol, ul {
-	  list-style: none;
+    list-style: none;
   }
 
   blockquote, q {
@@ -370,8 +370,8 @@ body {
   }
 
   table {
-	  border-collapse: collapse;
-	  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
   }
 
   ul {
