@@ -365,7 +365,7 @@ body {
 
     &:before, &:after {
       content: '';
-	    content: none;
+      content: none;
     }
   }
 
