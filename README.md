@@ -379,7 +379,7 @@ body {
   }
 }
 ```
-resets.scss contains code from somebody else. Personally, I would not touch reset code, because it is not something I would be changing and altering with any given project. Nevertheless, in order to get some practice with the ampersand, everything after the comment section for older browsers that can be nested inside of the `body` rule has been done so and pseudo elements for `blockquote` and `q` have been nested respectively including the use of the ampersand.
+resets.scss contains code from somebody else. Personally, I would not touch reset code, because it is not something I would be changing and altering with any given project. Nevertheless, in order to get some practice with the ampersand, everything after the comment section for older browsers that can be nested inside of the `body` rule has been done so and pseudo elements for `blockquote` and `q` have been nested respectively which includes the use of the ampersand.
 
 ## Review
 
