@@ -383,5 +383,6 @@ body {
 resets.scss contains code from somebody else. Personally, I would not touch reset code, because it is not something I would be changing and altering with any given project. Nevertheless, in order to get some practice with the ampersand, everything after the comment section for older browsers that can be nested inside of the `body` rule has been done so and pseudo elements for `blockquote` and `q` have been nested respectively which includes the use of the ampersand.
 
 ## Review
+Nesting, variables and the ampersand have been covered as well as implemented in the SCSS files in the `src/client/styles` folder. Getting Sass set up with Webpack is the tricky part due to the specific packages that MUST be compatible with each other.
 
 ### [Back to Top](#webpack-sass)
